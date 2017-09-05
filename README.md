@@ -1,3 +1,12 @@
+To run a dev version, first start the server:
+`npm run dev-server`
+
+Then run the app
+`npm run dev`
+
+To run a production version:
+`npm run build && npm run start`
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>

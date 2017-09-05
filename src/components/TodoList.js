@@ -28,7 +28,9 @@ class TodoList extends React.Component {
                         <TodoItem
                             deleteTodo={this.props.deleteTodo}
                             toggleTodo={this.props.toggleTodo}
-                            key={todo.id} {...todo} />)}
+                            key={todo.id} {...todo}
+                        />
+                    )}
                 </ul>
             </div>
         )
